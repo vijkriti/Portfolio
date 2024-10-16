@@ -1,0 +1,54 @@
+.about {
+    width: 100%;
+    margin: 3rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: 100%;
+}
+
+.about .left {
+    text-align: center;
+    margin: auto;
+    padding: 1rem;
+    max-width: 350px;
+}
+
+.about .left p {
+    margin: 1.2rem 0;
+}
+
+.about .right {
+    margin: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.right .img-container {
+    position: relative;
+    width: 300px; 
+    height: 300px; 
+}
+
+.right .img {
+    width: 100%;
+    height: auto;
+    border: 1px solid #333;
+}
+
+.right .top {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2; 
+    transform: translate(-10%, -10%);
+}
+
+.right .bottom {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    z-index: 1; 
+}
